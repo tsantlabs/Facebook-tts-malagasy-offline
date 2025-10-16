@@ -10,10 +10,7 @@ model = VitsModel.from_pretrained(MODEL_PATH, local_files_only=True)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, local_files_only=True)
 
 text = """
-Faly miarahaba antsika rehetra, androany isika dia hijery an'ity 
-faranitan-tsaina mamadika lahatsoratra ho lasa feo ity.
-I Fesiboky moa no namorona azy ity ka andeha ary ho henointsika
-ny zava-bitany.
+Faly miarahaba antsika rehetra , ity ny tu to antsika androany
 
 """
 
